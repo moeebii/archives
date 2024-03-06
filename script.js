@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
   let intervalId;
 
-  document.addEventListener("mousemove", function (event) {
-    // Check if the screen width is greater than 768px (adjust as needed)
-    if (window.innerWidth > 768) {
+  const desktopMediaQuery = window.matchMedia("(min-width: 768px)");
+
+  function handleMouseMove(event) {
+    if (desktopMediaQuery.matches) {
       clearInterval(intervalId);
 
       intervalId = setInterval(() => {
@@ -22,5 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }, 2000);
       }, 500); // Change this value to 500 for every 0.5 seconds
     }
-  });
+  }
+
+  document.addEventListener("mousemove", handleMouseMove);
 });
