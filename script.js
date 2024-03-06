@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         setTimeout(() => {
           redCircle.remove();
         }, 2000);
-      }, 500); // Change this value to 500 for every 0.5 seconds
+      }, 50); // Change this value to 500 for every 0.5 seconds
     }
   }
 
