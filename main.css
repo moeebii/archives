@@ -16,6 +16,16 @@ p {
 
 }
 
+
+@font-face {
+  font-family: 'newedge_666light_rounded';
+  src: url('newedge666-lightrounded-webfont.woff2') format('woff2'),
+       url('newedge666-lightrounded-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 .info .archives,
 .info .archives a {
   color: #b70000;
@@ -443,6 +453,17 @@ body {
   .pagecols {
     flex-direction: column-reverse; /* Reverse the order of flex items for smaller screens */
   }
+
+  .name{
+    font-family: 'newedge_666light_rounded';
+    
+  }
+
+  .projects, .archives, .contact {
+    font-family: 'newedge_666light_rounded';
+
+  }
+  
 
   .info {
     position: fixed;
