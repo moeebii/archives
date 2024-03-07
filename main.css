@@ -537,7 +537,9 @@ body {
       text-decoration: none;
 
   }
-    .info .contact a , .info .projects a {
+    .info .contact a , 
+    .info .projects a,
+    .info .selectedprojects {
       color: black;
       text-decoration: none;
     }
