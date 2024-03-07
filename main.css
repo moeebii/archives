@@ -474,6 +474,6 @@ body {
   }
 
   .writeup {
-    width: 100%; /* Take full width within the text container */
+    width: 26rem; /* Take full width within the text container */
   }
 }
