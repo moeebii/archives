@@ -497,13 +497,15 @@ body {
   .writeup {
     width: 26rem; /* Take full width within the text container */
   }
-
-  .info .contact a {
-    color: black;
-    text-decoration: none;
+    .info .contact a,
+    .info .projects a {
+      color: black;
+      text-decoration: none;
+    }
+  
+    .info .contact a:hover,
+    .info .projects a:hover {
+      color: #b70000;
+    }
   }
 
-  .contact:hover a {
-    color: #b70000;
-  }
-}
