@@ -490,7 +490,7 @@ body {
 
   .text-container {
     margin-bottom: 2rem; /* Reduce bottom margin for mobile */
-    border-bottom: 5px dotted #b70000;
+    border-bottom: 3px dotted #b70000;
     width: 100%; /* Take full width */
   }
 
