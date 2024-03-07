@@ -16,9 +16,11 @@ p {
 
 }
 
-.archives {
-  color: #b70000 !important;
+.info .archives,
+.info .archives a {
+  color: #b70000;
 }
+
 
 .name{
     font-family: 'newedge_666regular_rounded';
