@@ -227,6 +227,17 @@ body {
   max-width: 19rem;
 }
 
+.aboutme .emoji-link {
+  text-decoration: none; /* Remove underline for the link */
+  color: grey; /* Set initial color to black */
+  transition: color 0.3s ease; /* Add smooth transition effect */
+}
+
+.aboutme .emoji-link:hover {
+  color: #333; /* Darken the color on hover */
+}
+
+
 .japanese-text {
   color: grey;
   font-size: 1rem;
