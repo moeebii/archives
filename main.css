@@ -189,12 +189,11 @@ body {
 .thegardenofforkingpaths a,
 .dogsoninstagram a,
 .tokkichan a,
-.selectedprojects a,
 .archives a,
 .h1 a,
 .p a
 {
-  color: black;
+  color: #b70000;
   text-decoration: none;
 }
 
