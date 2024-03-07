@@ -92,6 +92,7 @@ body {
   flex: 70%;
   max-height: 600px;
   flex-direction: column; /* Stack items vertically */
+  margin-left: 4rem;
 
 }
 
