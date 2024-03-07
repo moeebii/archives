@@ -207,6 +207,35 @@ body {
 }
 
 /* Adjusted hover styles for anchor elements within .ig and .linkedin */
+.ig a,
+.email a,
+.resume a,
+.linkedin a,
+.name a,
+.thelostwords a,
+.bluegirl a,
+.thegardenofforkingpaths a,
+.dogsoninstagram a,
+.tokkichan a,
+.selectedprojects a,
+.archives a,
+.h1 a,
+.p a
+{
+  color: black;
+  text-decoration: none;
+}
+
+.image-title a {
+  color: black; /* Set the color to black */
+  text-decoration: none; /* Remove underline, if you want */
+}
+
+.writeup a {
+  color: black; /* Set the color to black */
+}
+
+/* Adjusted hover styles for anchor elements within .ig and .linkedin */
 .ig a:hover,
 .email a:hover,
 .resume a:hover,
@@ -453,17 +482,6 @@ body {
 }
 
 
-.red-circle {
-  position: absolute;
-  width: 100px; /* Adjust the size as needed */
-  height: 100px; /* Adjust the size as needed */
-  background-color: #b70000;
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  z-index: -4;
-}
-
 
 @media (max-width: 479px) {
   .pagecols {
@@ -506,7 +524,6 @@ body {
 
   .text-container {
     margin-bottom: 2rem; /* Reduce bottom margin for mobile */
-    border-bottom: 3px dotted #b70000;
     width: 100%; /* Take full width */
   }
 
@@ -514,8 +531,13 @@ body {
     width: 26rem; /* Take full width within the text container */
     font-size: 1rem;
   }
-    .info .contact a,
-    .info .projects a {
+
+ .info .projects a {
+      color: #b70000;
+      text-decoration: none;
+
+  }
+    .info .contact a {
       color: black;
       text-decoration: none;
     }
