@@ -92,8 +92,15 @@ body {
   flex: 70%;
   max-height: 600px;
   flex-direction: column; /* Stack items vertically */
-margin-left: 4rem;
+
 }
+
+.text-container{
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
 
 .image-container,
 .text-container {
@@ -110,11 +117,6 @@ margin-left: 4rem;
 
 .image-container{
   width: 100%;
-}
-.text-container{
-  display: fl;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .description{
@@ -175,6 +177,8 @@ margin-left: 4rem;
   padding-top: 2rem;
   max-width: 20rem;
 }
+
+
 
 
 .name:hover,
@@ -371,7 +375,12 @@ margin-left: 4rem;
   .text-container {
     font-size: 0.8rem;
 
+
   }
+
+  .writeup {
+  width: 30rem;
+}
 }
 
 
@@ -383,4 +392,5 @@ margin-left: 4rem;
   border-radius: 50%;
   pointer-events: none;
   transform: translate(-50%, -50%);
+  z-index: -4;
 }
