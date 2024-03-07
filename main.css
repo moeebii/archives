@@ -496,6 +496,7 @@ body {
 
   .writeup {
     width: 26rem; /* Take full width within the text container */
+    font-size: 1rem;
   }
     .info .contact a,
     .info .projects a {
