@@ -7,6 +7,8 @@ p {
   padding: 0;
 }
 
+
+
 @font-face {
   font-family: 'newedge_666regular_rounded';
   src: url('newedge666-regularrounded-webfont.woff2') format('woff2'),
@@ -28,7 +30,7 @@ p {
 
 .info .archives,
 .info .archives a {
-  color: #b70000;
+  color: #8a0000;
 }
 
 
@@ -146,7 +148,7 @@ body {
   margin-top: 2rem;
   margin-bottom: 10rem;
   padding-bottom: 2rem; /* Optional: Add padding to adjust the gap */
-  border-bottom: 5px dotted #b70000;
+  border-bottom: 5px dotted #8a0000;
 }
 
 
@@ -168,7 +170,7 @@ body {
 }
 
 .description{
-  color: #b70000;
+  color: #8a0000;
 }
 
 @media (min-width: 480px) {
@@ -193,7 +195,7 @@ body {
 .h1 a,
 .p a
 {
-  color: #b70000;
+  color: #8a0000;
   text-decoration: none;
 }
 
@@ -249,7 +251,7 @@ body {
 .selectedprojects a:hover
 .archives a:hover
  {
-  color: #b70000;
+  color: #8a0000;
   cursor: pointer;
   text-decoration: none;
 }
@@ -295,7 +297,7 @@ body {
 .thegardenofforkingpaths:hover,
 .dogsoninstagram:hover,
 .selectedprojectslist div:hover {
-  color: #b70000;
+  color: #8a0000;
   cursor: pointer;
   text-decoration: none;
 }
@@ -400,12 +402,12 @@ body {
   width: 1.25rem;
   height: 1.25rem;
   border-radius: 50%;
-  background-color: #b70000;
+  background-color: #8a0000;
   display: none;
 }
 
 .selectedprojectslist div:hover {
-  color: #b70000;
+  color: #8a0000;
 }
 
 .selectedprojectslist div:hover::before {
@@ -542,7 +544,7 @@ body {
 }
 
  .info .archives a {
-      color: #b70000;
+      color: #8a0000;
       text-decoration: none;
 
   }
@@ -555,7 +557,7 @@ body {
   
     .info .contact a:hover,
     .info .projects a:hover {
-      color: #b70000;
+      color: #8a0000;
     }
   }
 
